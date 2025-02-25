@@ -162,7 +162,7 @@ class SecureBase:
             return bytes(decoded_data)
 
         except Exception as ex:
-            raise Exception(str(ex))
+            raise Exception("Invalid data or secret key!")
 
     def _pr_suffle_charset(self, secret_key):
         self._compute_hash(secret_key, 256)

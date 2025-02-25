@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='SecureBase',
-    version='1.1',
+    version='1.2',
     packages=['SecureBase'],
     url='https://beytullahakyuz.gitbook.io/securebase',
     license='MIT',
